@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" />
+    <title>Recruitment Paskibra Mandusa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <center>
+            <h1 class="judul">
+                Recruitment Paskibra Mandusa
+            </h1>
+            <div class="line">
+                <p>2023/2024</p>
+            </div>
+            <div class="logo">
+                <img src="man2.png" alt="logo" onclick="manSemarang()">
+                <img src="paskib.png" alt="logo" onclick="paskibraMandusa()">
+            </div>
+            <form action="database.html" method="post">
+            <div class="label">
+                <h2>
+                    Nama Lengkap :
+                </h2>
+                <input 
+                    type="text"
+                    class="kolom"
+                    id="nama"
+                    name="nama lengkap"
+                    placeholder="nama lengkap kamu"
+                    maxlength="100"
+                    required
+                />
+            </div>
+
+            <div class="boks">
+                <h2>
+                    Kelas :
+                </h2>
+                <div class="sret"></div>
+                <div class="in">
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="f1" 
+                            class="select" 
+                            value="10 FASE 1"
+                        />
+                        <label for="f1">10 FASE 1</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="f2" 
+                            class="select" 
+                            value="10 FASE 2"
+                        />
+                        <label for="f2">10 FASE 2</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="f3" 
+                            class="select" 
+                            value="10 FASE 3"
+                        />
+                        <label for="f3">10 FASE 3</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="f4" 
+                            class="select" 
+                            value="10 FASE 4"
+                        />
+                        <label for="f4">10 FASE 4</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="f5" 
+                            class="select" 
+                            value="10 FASE 5"
+                        />
+                        <label for="f5">10 FASE 5</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="f6" 
+                            class="select" 
+                            value="10 FASE 6"
+                        />
+                        <label for="f6">10 FASE 6</label>
+                    </div>
+                </div>
+                <div class="dilay1"></div>
+                <div class="sret"></div>
+                <div class="in">
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x1" 
+                            class="select" 
+                            value="11 IIK 1"
+                        />
+                        <label for="x1">11 IIK 1</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x2" 
+                            class="select" 
+                            value="11 IIK 2"
+                        />
+                        <label for="x2">11 IIK 2</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x3" 
+                            class="select" 
+                            value="11 IPS 1"
+                        />
+                        <label for="x3">11 IPS 1</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x4" 
+                            class="select" 
+                            value="11 IPS 2"
+                        />
+                        <label for="x4">11 IPS 2</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x5" 
+                            class="select" 
+                            value="11 IPS 3"
+                        />
+                        <label for="x5">11 IPS 3</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x6" 
+                            class="select" 
+                            value="11 IPA 1"
+                        />
+                        <label for="x6">11 IPA 1</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x7" 
+                            class="select" 
+                            value="11 IPA 2"
+                        />
+                        <label for="x7">11 IPA 2</label>
+                    </div>
+                    <div class="inbox">
+                        <input 
+                            type="radio" 
+                            name="kelas" 
+                            id="x7" 
+                            class="select" 
+                            value="11 IPA 3"
+                        />
+                        <label for="x7">11 IPA 3</label>
+                    </div>
+                </div>
+                <div class="dilay2"></div>
+                <div class="sret"></div>
+            </div>
+
+            <div class="sos">
+                <h2>Motivasi</h2>
+                <div class="sret"></div>
+                <p>Apa Alasan Kamu Mengikuti Ekstrakurikuler Paskibra?</p>
+                <label for="motiv">
+                    <textarea 
+                        name="motivasi" 
+                        id="motiv" 
+                        class="motiv" 
+                        placeholder="ISI DISINI!" 
+                        minlength="20"
+                        maxlength="500"
+                        cols="25" 
+                        rows="10"
+                        required></textarea>
+                </label>
+                <div class="sret"></div>
+            </div>
+
+            <div class="sos">
+                <h2>Tujuan</h2>
+                <div class="sret"></div>
+                <p style="font-size: 12px;">Apa Hasil Yang Kamu Inginkan Setelah Mengikuti ekstrakurikuler Paskibra?</p>
+                <label for="rute">
+                    <textarea 
+                        name="rute" 
+                        id="rute" 
+                        class="rute" 
+                        placeholder="ISI DISINI!" 
+                        minlength="20"
+                        maxlength="500"
+                        cols="25" 
+                        rows="10"
+                        required></textarea>
+                </label>
+                <div class="sret"></div>
+            </div>
+
+            <button class="daftar" onclick="kirimWhatsApp()">DAFTAR</button>
+            </form>
+
+            <div class="help">
+                <p class="kontak">Atau Hubungi Admin :</p>
+                <div class="konjungsi">
+                    <img src="wa.png" alt="wa admin" class="wa" onclick="followAdmin()">
+                    <a href="" class="ling">Admin</a>
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <script>
+        function kirimWhatsApp() {
+            const nama = document.getElementById('nama').value;
+            const radio = document.querySelector('.select:checked');
+            const kelas = radio ? radio.value : '';
+            const motiv = document.getElementById('motiv').value;
+            const rute = document.getElementById('rute').value;
+
+            const url = "https://api.whatsapp.com/send?phone=6285664978314&text=Assalamualaikum%20kak%2C%0ASebelumnya%20Saya%20Ingin%20Memperkenalkan%20Diri%0A%0ANama%20Saya%20%3A%20*"+ nama +"*%0ASaya%20Dari%20Kelas%20%3A%20*"+ kelas +"*%0A%0ADengan%20Perkenalan%20Diri%20Ini%20Saya%20Yakin%20Dengan%20Sepenuh%20Hati%20Dan%20Yakin%20Mengikuti%20Ekstrakurikuler%20Paskibra.%0A%0AMotivasi%20Saya%20Ikut%20Ekstrakurikuler%20Paskibra%20Adalah%20%3A%20*"+ motiv +"*%0ATujuan%20Saya%20Setelah%20Mengikuti%20Ekstrakurikuler%20Paskibra%20Adalah%20%3A%20*"+ rute +"*%0A%0ADengan%20Ini%20Saya%20Harap%20Dapat%20Diterima%20Di%20Ekstrakurikuler%20Paskibra.%0ATerima%20Kasih%20Kak.%0A";
+
+            window.open(url);
+        }
+
+        function manSemarang() {
+            const url = "https://www.instagram.com/man2semarang_official/";
+            window.open(url);
+        }
+
+        function paskibraMandusa() {
+            const url = "https://www.instagram.com/paskibramandusa/?igshid=MzRlODBiNWFlZA==";
+            window.open(url);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    /*height: 250vh;*/
+    background-color: #D2D3C9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.help {
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    margin-top: 60px;
+    border-top: 3px solid black;
+    box-shadow: 0px -30px 50px white;
+}
+
+.help .kontak {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    padding-top: 5px;
+    text-shadow: 0px 2px 3px black;
+}
+
+.help .konjungsi {
+    width: 30%;
+    height: 40px;
+    position: relative;
+    top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
+    margin-top: 10px;
+    border-radius: 10px;
+    gap: 5px;
+
+}
+
+.help .konjungsi .wa {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.help .konjungsi .ling {
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 0px 2px 2px white;
+}
+
+.banner {
+    width: 100%;
+    height: 230px;
+    background-color: #ff1a1a;
+    border-bottom: 3px solid black;
+    box-shadow: 0px 30px 50px white;
+}
+
+.banner .judul {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.line {
+    width: 300px;
+    height: 3px;
+    background-color: yellow;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line p {
+    color: white;
+    background-color: #ff1a1a;
+    padding: 0px 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.logo {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    margin-top: 25px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.label {
+    width: 300px;
+    height: 120px;
+    background-color: #FCE22A;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;
+}
+
+.label h2 {
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px white;
+    font-size: 20px;
+}
+
+.label .kolom {
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    border: 3px solid red;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.label .kolom:focus {
+    outline: none;
+    font-weight: bold;
+}
+
+.boks {
+    width: 300px;
+    height: 850px;
+    background-color: #FCE22A;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;
+}
+
+.boks h2 {
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px white;
+    font-size: 20px;
+}
+
+.boks label {
+    font-size: 13px;
+}
+
+.sret {
+    width: 200px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+    top: 20px;
+}
+
+.dilay1 {
+    background-color: transparent;
+    width: 300px;
+    height: 30px;
+}
+
+.dilay2 {
+    background-color: transparent;
+    width: 300px;
+    height: 80px;
+}
+
+.in {
+    width: 200px;
+    height: 300px;
+    background-color: transparent;
+    position: relative;
+    top: 30px;
+    display: block;
+}
+
+.in .inbox {
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 15px;
+    box-shadow: 0px 3px 3px black;
+}
+
+.in .inbox input[type=radio] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.in .inbox input[type=radio]:checked {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: greenyellow;
+    border: 3px solid green;
+}
+
+.in .inbox label {
+    font-weight: bold;
+}
+
+.sos {
+    background-color: #FCE22A;
+    width: 300px;
+    height: 370px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;
+    display: block;
+}
+
+.sos h2 {
+    padding-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px white;
+    font-size: 20px;
+}
+
+.sos p {
+    color: red;
+    font-weight: bold;
+    padding-top: 40px;
+    text-shadow: 0px 1px 0px black;
+    font-size: 13px;
+}
+
+.sos .motiv {
+    background-color: white;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: black;
+    font-size: 13px;
+    min-width: 200px;
+    min-height: 150px;
+    max-width: 205px;
+    max-height: 160px;
+}
+
+.sos .motiv:focus {
+    outline: none;
+    font-weight: bold;
+}
+
+.sos .rute {
+    background-color: white;
+    text-align: center;
+    border: 3px solid red;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: black;
+    font-size: 13px;
+    min-width: 200px;
+    min-height: 150px;
+    max-width: 205px;
+    max-height: 160px;
+}
+
+.sos .rute:focus {
+    outline: none;
+    font-weight: bold;
+}
+
+.daftar {
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 15px;
+    text-shadow: 0px 3px 3px black;
+}
